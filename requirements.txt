@@ -1,7 +1,6 @@
 # requiremnts.txt
 snowflake-snowpark-python
 streamlit
-pandas
 
 definition_version: 2
 entities:
