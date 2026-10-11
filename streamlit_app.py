@@ -12,7 +12,7 @@ st.write(
 cnx = st.connection("snowflake")
 session = cnx.session()
 
-#my_dataframe = session.table("smoothies.public.fruit_options").select(
+my_dataframe = session.table("smoothies.public.fruit_options").select(
     col("Fruit_name")
 )
 st.dataframe(data=my_dataframe, use_container_width=True)
