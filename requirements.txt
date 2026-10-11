@@ -21,3 +21,5 @@ entities:
       name: CUSTOM_SMOOTHIE_ORDER_FORM
     run_mode: SpcsOnly
     execute_as: OWNER
+
+pip install --upgrade pip
